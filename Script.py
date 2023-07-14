@@ -6,7 +6,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Kgashok04>☢ Owner Of RIO NETWORKS ☢</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/creatorrio>☢ Owner Of RIO NETWORKS ☢</a></b>
 <b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/Teamrioupdates>RIO Bot Updates 👾</a></b>
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
@@ -193,10 +193,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+╔════ 😉😉😉😉😉 ════╗
 ▫️<a href=https://t.me/+pl4rB-xx8ltlOTE1> ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ </a>
 ▫️<a href=https://t.me/+ps2An00KwZYwNTRl> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
+╚════ 😍😍😍😍😍 ════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
