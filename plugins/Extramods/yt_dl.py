@@ -3,8 +3,6 @@ from __future__ import unicode_literals
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from yt_dlp import YoutubeDL
-
 
 @Client.on_message(filters.command(['song', 'mp3']) & filters.private)
 async def song(client, message):
