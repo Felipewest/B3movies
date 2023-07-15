@@ -3,7 +3,6 @@ import traceback
 from asyncio import get_running_loop
 from io import BytesIO
 
-from import gTTS
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
