@@ -66,7 +66,6 @@ async def give_filter(client, message):
         if total_results == 0:
             return
         else:
-            return await 
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
