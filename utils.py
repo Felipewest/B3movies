@@ -626,7 +626,10 @@ async def get_shortlink(chat_id, link, second=False):
 async def get_tutorial(chat_id):
     settings = await get_settings(chat_id) #fetching settings for group
     if 'tutorial' in settings.keys():
-        TUTORIAL_URL = settings['tutorial']
+        if settings['is_tutorial']:
+            TUTORIAL_URL = settings['tutorial']
+        else:
+            TUTORIAL_URL = TUTORIAL
     else:
         TUTORIAL_URL = TUTORIAL
     return TUTORIAL_URL
