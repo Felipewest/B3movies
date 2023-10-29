@@ -42,6 +42,7 @@ REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 CHAT_ID = environ.get('CHAT_ID', '-1001808528923')
+APPROVED = bool(environ.get('APPROVED', on))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://noobpreetam07:noobpreetam07@cluster0.jvxmfwx.mongodb.net/?retryWrites=true&w=majority")
