@@ -12,7 +12,7 @@ async def aksapprove(client, message: ChatJoinRequest):
     user=message.from_user 
     print(f"{user.first_name} Joined") 
     await client.approve_chat_join_request(chat_id=chat.id, user_id=user.id)
-    if APPROVED == "on":
+    if APPROVED == "True":
         buttons = [[
             InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ​', url=f'https://t.me/Aksbackup')
             
