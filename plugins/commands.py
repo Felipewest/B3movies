@@ -421,7 +421,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b>⛔️ Forward This File to Any Other Chat or in Saved Message. This Message will be Deleted After 5 Minutes. Also This Bot Can be Banned Anytime. 💯</b>(quote=True)
+            k = await msg.reply("<b>⛔️ Forward This File to Any Other Chat or in Saved Message. This Message will be Deleted After 5 Minutes. Also This Bot Can be Banned Anytime. 💯</b>",(quote=True)
             await asyncio.sleep(600)
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -470,7 +470,7 @@ async def start(client, message):
     btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b>⛔️ Forward This File to Any Other Chat or in Saved Message. This Message will be Deleted After 5 Minutes. Also This Bot Can be Banned Anytime. 💯</b>(quote=True)
+            k = await msg.reply("<b>⛔️ Forward This File to Any Other Chat or in Saved Message. This Message will be Deleted After 5 Minutes. Also This Bot Can be Banned Anytime. 💯</b>",(quote=True)
             await asyncio.sleep(600)
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
